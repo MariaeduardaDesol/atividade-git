@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+    background-color: rgb(237, 100, 230);
+    color: black;
+    display: flex ; /*Permite que os itens mudem de lugar. Já o block vai fazer com que o intem fique em um lugar fixo ex globo*/
+    flex-direction: column;
+    justify-content: center; /* Justifica os itens na vertical*/
+    align-items: center;  /*  Justifica na horizontal */
+    min-height: 100vh; 
+    padding: 20px; /*Dar espaço entre os elementos*/
+    text-align: center;
+
+}
+h1{
+    color:rgb(129, 0, 250);
+    font-size: 2rem; 
+    margin-bottom: 8px;
+
+}
+
+p{
+    color:rgb(4, 4, 31);
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+button{
+    font-weight: 200; /*Destacar a letra*/
+    border-radius: 6px; /*bordas*/
+    cursor: pointer; /*Fica uma setinha*/
+    transition:auto;
+
+}
