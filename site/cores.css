@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(237, 100, 230);
+    background-color: rgb(70, 26, 67);
     color: black;
     display: flex ; /*Permite que os itens mudem de lugar. Já o block vai fazer com que o intem fique em um lugar fixo ex globo*/
     flex-direction: column;
